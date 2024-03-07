@@ -1,0 +1,115 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #cdc2c2;
+  border-radius: 5px;
+  
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.toolbar button.active {
+  background-color: #0056b3;
+}
+
+.toolbar select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.editor {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.content {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.preview-content {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.active {
+  background-color: #0056b3 !important;
+}
+
+.toolbar select {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+  margin-right: 5px; 
+  background-color: #fff; 
+  color: #333; 
+  border: 1px solid #ccc; 
+  
+}
+
+
+.toolbar button.underline {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px; 
+}
+
+.toolbar button.underline.active {
+  background-color: #0056b3; 
+}
+
